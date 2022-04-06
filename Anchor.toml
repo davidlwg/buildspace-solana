@@ -1,13 +1,13 @@
 [features]
 seeds = false
-[programs.localnet]
-sol_rust = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+sol_rust = "98PAdXWvGxzND7uWW9QXGhGxtzjNh4H2pctY29h39zRu"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/david/.config/solana/id.json"
 
 [scripts]
